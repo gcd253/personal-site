@@ -25,7 +25,9 @@ export default function Home() {
           className="rounded-full border-4 border-white hover:scale-[1.03] duration-500"
         />
 
-        <div className={styles.grid}></div>
+        <div className="text-white bold font text-5xl font-serif">
+          Hi, I'm Griffin
+        </div>
       </main>
     </>
   );
