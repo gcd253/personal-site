@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Layout = ({ children }) => {
   return (
     <>
@@ -33,8 +35,15 @@ const Layout = ({ children }) => {
       </div>
       {children}
       <footer className="h-60 w-[90%] items-center m-auto justify-center flex gap-x-20 border-slate-600 border-t">
-        <div className="m-20">Github</div>
-        <div className="m-20">LinkedIn</div>
+        <a href="https://github.com/gcd253" className="m-20">
+          <Image src="/github-logo.svg" width={55} height={55} alt="github logo"/>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/griffin-dooley/"
+          className="m-20 cursor-pointer bg-white p-2 rounded-lg"
+        >
+          <Image src="/linkedin-logo.svg" width={40} height={40} alt="linkedin logo"/>
+        </a>
       </footer>
     </>
   );
