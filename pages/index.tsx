@@ -15,18 +15,55 @@ export default function Home() {
       </Head>
       <Layout>
         <main className={styles.main}>
-          <Image
-            src={headshot}
-            alt="Picture of the author"
-            width={500}
-            height={500}
-            className="rounded-full border-4 border-white hover:scale-[1.03] duration-500"
-          />
+          <div className="">
+            <div className="cube-wrap">
+              <div className="cube">
+                <div className="side top border-4 border-white bg-transparent"></div>
+                <div className="side bottom border-4 border-white bg-transparent"></div>
+                <div className="side front border-4 border-white bg-transparent"></div>
+                <div className="side back border-4 border-white bg-transparent"></div>
+                <div className="side left border-4 border-white bg-transparent"></div>
+                <div className="side right border-4 border-white bg-transparent"></div>
+              </div>
+            </div>
+            <Image
+              src={headshot}
+              alt="Picture of the author"
+              width={500}
+              height={500}
+              className="rounded-full border-4 border-white hover:scale-[1.03] duration-500 absolute right-36"
+            />
+          </div>
 
-          <div className="text-white bold font text-5xl font-serif">
-            Hi, I'm Griffin
+          <div className="absolute flex flex-col items-center bottom-[-130px]">
+            <h1 className="text-white bold text-5xl mt-20">Hi, I'm Griffin!</h1>
+            <br/>
+            <p className="w-1/2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec
+              pretium vulputate sapien nec sagittis aliquam malesuada bibendum.
+              Sed vulputate mi sit amet. In aliquam sem fringilla ut morbi.
+              Magnis dis parturient montes nascetur ridiculus mus mauris vitae.
+              Ac odio tempor orci dapibus ultrices in iaculis nunc sed. Mattis
+              rhoncus urna neque viverra justo nec ultrices. Ut tristique et
+              egestas quis ipsum suspendisse ultrices gravida. Euismod in
+              pellentesque massa placerat duis ultricies lacus. Morbi blandit
+              cursus risus at ultrices mi tempus imperdiet. Ornare arcu odio ut
+              sem nulla pharetra. Sit amet aliquam id diam maecenas. In dictum
+              non consectetur a. In ante metus dictum at.
+            </p>
           </div>
         </main>
+        {/* <div id="wrapper">
+          <div className="box-area">
+            <div id="box-front" className="box font-bold text-5xl"></div>
+            <div id="box-right" className="box"></div>
+            <div id="box-back" className="box"></div>
+            <div id="box-left" className="box"></div>
+            <div id="box-top" className="box"></div>
+            <div id="box-bottom" className="box"></div>
+          </div>
+        </div> */}
       </Layout>
     </>
   );

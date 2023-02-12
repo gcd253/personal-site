@@ -9,7 +9,8 @@ const oswald = Oswald({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-  <main className={`${oswald.variable} font-sans`}>
-    <Component {...pageProps} />
-  </main> )
+    <main className={`${oswald.variable} font-sans`}>
+      <Component {...pageProps} />
+    </main>
+  );
 }
