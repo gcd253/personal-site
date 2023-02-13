@@ -1,15 +1,15 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import { Oswald } from "@next/font/google";
+import { Nunito } from "@next/font/google";
 
-const oswald = Oswald({
+const nunito = Nunito({
   subsets: ["latin"],
   variable: "--font-oswald",
 });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${oswald.variable} font-sans`}>
+    <main className={`${nunito.variable} font-sans`}>
       <Component {...pageProps} />
     </main>
   );
