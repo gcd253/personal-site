@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
             <span className="absolute -bottom-1 right-1/2 w-0 h-1 bg-black group-hover:w-1/2 group-hover:transition-all duration-500"></span>
           </span>
         </p>
-        <p className="m-16 relative group cursor-pointer p-x-1">
+        <p className="m-16 relative group cursor-pointer p-x-1 whitespace-nowrap">
           <span>
             about me
             <span className="absolute -bottom-1 left-1/2 w-0 h-1 bg-black group-hover:w-1/2 group-hover:transition-all duration-500"></span>
