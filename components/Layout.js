@@ -36,13 +36,23 @@ const Layout = ({ children }) => {
       {children}
       <footer className="h-60 w-full items-center m-auto justify-center bg-amber-100 flex gap-x-20 border-black border-t">
         <a href="https://github.com/gcd253" className="m-20">
-          <Image src="/github-logo.svg" width={55} height={55} alt="github logo"/>
+          <Image
+            src="/github-logo.svg"
+            width={55}
+            height={55}
+            alt="github logo"
+          />
         </a>
         <a
           href="https://www.linkedin.com/in/griffin-dooley/"
           className="m-20 cursor-pointer bg-white p-2 rounded-lg"
         >
-          <Image src="/linkedin-logo.svg" width={40} height={40} alt="linkedin logo"/>
+          <Image
+            src="/linkedin-logo.svg"
+            width={40}
+            height={40}
+            alt="linkedin logo"
+          />
         </a>
       </footer>
     </>
