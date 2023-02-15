@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-euclid)", ...fontFamily.sans],
       },
+      backgroundImage: {
+        'headhsot': "url('/public/headshot-square.PNG')"
+      }
     },
   },
   plugins: [],

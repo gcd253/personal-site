@@ -1,6 +1,9 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Layout from "@/components/Layout";
+import Image from "next/image";
+//@ts-ignore
+import headshot from "../public/headshot-square.PNG";
 
 export default function Home() {
   return (
@@ -15,7 +18,7 @@ export default function Home() {
         <main className="bg-amber-100 w-full h-full font-sans">
           <div className="flex flex-col items-center justify-center h-screen w-screen">
             <div className="mt-12 h-96 w-1/3 bg-black rounded-md relative">
-              <div className="h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex justify-center text-3xl">
+              <div className="font-bold h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex justify-center text-3xl">
                 Hi, I'm Griffin!
                 <div className="absolute flex flex-row gap-2 bottom-2 left-2">
                   <div className="bg-blue-400 h-4 w-4 rounded-full"></div>
@@ -26,13 +29,27 @@ export default function Home() {
               <div className="absolute bg-purple-400 h-4 w-12 -right-16"></div>
               <div className="absolute bg-purple-400 h-4 w-12 -right-[3.2rem] -top-12 -rotate-45"></div>
               <div className="absolute bg-purple-400 h-12 w-4 right-4 -top-20"></div>
+
+              <div className="mt-12 h-64 w-64 bg-black rounded-full relative -top-40 -left-32">
+                <div className="h-[101%] w-[101%] bg-lime-200 border-[6px] border-black items-center -top-3 -left-3 rounded-full absolute flex justify-center text-3xl">
+                  <Image
+                    src={headshot}
+                    width={256}
+                    height={256}
+                    alt="picture of the author"
+                    className="rounded-full"
+                  />
+                </div>
+              </div>
             </div>
           </div>
 
           <div className="flex flex-col items-center justify-center h-screen w-screen bg-fuchsia-300">
             <div className="mt-12 h-96 w-1/3 bg-black rounded-md relative">
               <div className="h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col font-light justify-center text-center text-3xl p-12">
-                <h1 className="font-bold mb-4">Hi, I'm Griffin!</h1> What if I just put way too much text in this tiny little box? Will it look awful and cramped? Yeah, kinda.
+                <h1 className="font-bold mb-4">Hi, I'm Griffin!</h1> What if I
+                just put way too much text in this tiny little box? Will it look
+                awful and cramped? Not anymore!
                 <div className="absolute flex flex-row gap-2 bottom-2 left-2">
                   <div className="bg-red-400 h-4 w-4 rounded-full"></div>
                   <div className="bg-yellow-400 h-4 w-4 rounded-full"></div>
