@@ -19,7 +19,9 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center h-screen w-screen">
             <div className="mt-12 h-96 w-1/3 bg-black rounded-md relative">
               <div className="font-light h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col justify-center text-3xl p-12 text-center">
-                <h1 className="font-bold mb-4">Hi, I'm Griffin!</h1> I'm a software engineer and an outdoor enthusiast currently based in NYC.
+                <h1 className="font-bold mb-4">Hi, I'm Griffin!</h1> I'm a
+                software engineer and an outdoor enthusiast currently based in
+                NYC.
                 <div className="absolute flex flex-row gap-2 bottom-2 left-2">
                   <div className="bg-blue-400 h-4 w-4 rounded-full"></div>
                   <div className="bg-blue-400 h-4 w-4 rounded-full"></div>
@@ -65,7 +67,9 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center h-screen w-screen bg-orange-300">
             <div className="mt-12 h-96 w-1/3 bg-black rounded-md relative">
               <div className="h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col font-light justify-center text-center text-3xl p-12">
-                <h1 className="font-bold mb-4">Tools and languages</h1> I'm familiar with quite a few of today's most prized technologies. Here are some of my favorites!  
+                <h1 className="font-bold mb-4">Tools and languages</h1> I'm
+                familiar with quite a few of today's most prized technologies.
+                Here are some of my favorites!
                 <div className="absolute flex flex-row gap-4 bottom-2 left-2">
                   <div className="bg-indigo-500 h-2 w-6"></div>
                   <div className="bg-indigo-500 h-2 w-6"></div>
@@ -80,6 +84,23 @@ export default function Home() {
               <div className="absolute bg-lime-500 h-4 w-12 -right-16"></div>
               <div className="absolute bg-lime-500 h-4 w-12 -right-[3.2rem] -top-12 -rotate-45"></div>
               <div className="absolute bg-lime-500 h-12 w-4 right-4 -top-20"></div>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center justify-center h-screen w-screen bg-fuchsia-300">
+            <div className="mt-12 h-1/2 w-1/2 bg-black rounded-md relative">
+              <div className="h-[101%] overflow-hidden w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col font-light justify-center text-center text-3xl p-12">
+                <h1 className="font-bold mb-4"></h1>
+                <div className="h-full w-2 bg-red-400 absolute left-20 z-10"></div>
+                <div className="flex flex-col gap-12 absolute left-0 top-36 w-full">
+                  <div className="w-full h-2 bg-blue-400 "></div>
+                  <div className="w-full h-2 bg-blue-400 "></div>
+                  <div className="w-full h-2 bg-blue-400 "></div>
+                  <div className="w-full h-2 bg-blue-400 "></div>
+                  <div className="w-full h-2 bg-blue-400 "></div>
+                </div>
+                <div className="w-12 h-12 bg-fuchsia-300 rounded-full border-[6px] border-black z-10 absolute left-5 top-[11rem] "></div>
+              </div>
             </div>
           </div>
         </main>
