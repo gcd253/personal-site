@@ -66,10 +66,15 @@ export default function Home() {
             <div className="mt-12 h-96 w-1/3 bg-black rounded-md relative">
               <div className="h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col font-light justify-center text-center text-3xl p-12">
                 <h1 className="font-bold mb-4">Tools and languages</h1> I'm familiar with quite a few of today's most prized technologies. Here are some of my favorites!  
-                <div className="absolute flex flex-row gap-2 bottom-2 left-2">
-                  <div className="bg-indigo-500 h-4 w-4 rounded-full"></div>
-                  <div className="bg-indigo-500 h-4 w-4 rounded-full"></div>
-                  <div className="bg-indigo-500 h-4 w-4 rounded-full"></div>
+                <div className="absolute flex flex-row gap-4 bottom-2 left-2">
+                  <div className="bg-indigo-500 h-2 w-6"></div>
+                  <div className="bg-indigo-500 h-2 w-6"></div>
+                  <div className="bg-indigo-500 h-2 w-6"></div>
+                </div>
+                <div className="absolute flex flex-col gap-4 bottom-2 left-2">
+                  <div className="bg-indigo-500 h-6 w-2"></div>
+                  <div className="bg-indigo-500 h-6 w-2"></div>
+                  <div className="bg-indigo-500 h-6 w-2"></div>
                 </div>
               </div>
               <div className="absolute bg-lime-500 h-4 w-12 -right-16"></div>
