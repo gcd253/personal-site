@@ -67,7 +67,7 @@ export default function Home() {
             <div className="mt-12 h-96 w-1/3 bg-black rounded-md relative">
               <div className="h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col font-light justify-center text-center text-3xl p-12">
                 <h1 className="font-bold mb-4">Tools and languages</h1> I'm
-                familiar with quite a few of today's most prized technologies.
+                familiar with quite a few of today's most sought-after technologies.
                 Here are some of my favorites!
                 <div className="absolute flex flex-row gap-4 bottom-2 left-2">
                   <div className="bg-indigo-500 h-2 w-6"></div>
@@ -89,7 +89,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center h-screen w-screen bg-pink-300">
             <div className="mt-12 h-1/2 w-1/2 min-w-[600px] bg-black rounded-md relative">
               <div className="h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col font-light justify-center text-center text-3xl p-12">
-                <h1 className="font-bold mb-4 z-20 absolute top-28">HEADING</h1>
+                <h1 className="font-bold mb-4 z-20 absolute top-28">FAREWELL</h1>
                 <ul className="z-20 flex flex-col gap-5 absolute top-[10.5rem]">
                   <li>Take care, off you go</li>
                   <li>Thanks for visiting my site</li>
