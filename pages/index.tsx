@@ -13,102 +13,101 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout>
-        <main className="bg-amber-100 w-full h-full font-sans">
-          <div className="flex flex-col items-center justify-center h-screen w-screen">
-            <div className="mt-12 h-96 w-1/3 bg-black rounded-md relative">
-              <div className="font-light h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col justify-center text-3xl p-12 text-center">
-                <h1 className="font-bold mb-4">Hi, I'm Griffin!</h1> I'm a
-                software engineer, an outdoor enthusiast, and a creative
-                currently based in NYC.
-                <div className="absolute flex flex-row gap-2 bottom-2 left-2">
-                  <div className="bg-blue-400 h-4 w-4 rounded-full"></div>
-                  <div className="bg-blue-400 h-4 w-4 rounded-full"></div>
-                  <div className="bg-blue-400 h-4 w-4 rounded-full"></div>
-                </div>
-              </div>
-              <div className="absolute bg-purple-400 h-4 w-12 -right-16"></div>
-              <div className="absolute bg-purple-400 h-4 w-12 -right-[3.2rem] -top-12 -rotate-45"></div>
-              <div className="absolute bg-purple-400 h-12 w-4 right-4 -top-20"></div>
 
-              <div className="mt-12 h-64 w-64 bg-black rounded-full relative -top-40 -left-32">
-                <div className="h-[101%] w-[101%] bg-lime-200 border-[6px] border-black items-center -top-3 -left-3 rounded-full absolute flex justify-center text-3xl">
-                  <Image
-                    src={headshot}
-                    width={256}
-                    height={256}
-                    alt="picture of the author"
-                    className="rounded-full"
-                  />
-                </div>
+      <main className="bg-amber-100 w-full h-full font-sans">
+        <div className="flex flex-col items-center justify-center h-screen w-screen">
+          <div className="mt-12 h-96 w-1/3 bg-black rounded-md relative">
+            <div className="font-light h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col justify-center text-3xl p-12 text-center">
+              <h1 className="font-bold mb-4">Hi, I'm Griffin!</h1> I'm a
+              software engineer, an outdoor enthusiast, and a creative currently
+              based in NYC.
+              <div className="absolute flex flex-row gap-2 bottom-2 left-2">
+                <div className="bg-blue-400 h-4 w-4 rounded-full"></div>
+                <div className="bg-blue-400 h-4 w-4 rounded-full"></div>
+                <div className="bg-blue-400 h-4 w-4 rounded-full"></div>
+              </div>
+            </div>
+            <div className="absolute bg-purple-400 h-4 w-12 -right-16"></div>
+            <div className="absolute bg-purple-400 h-4 w-12 -right-[3.2rem] -top-12 -rotate-45"></div>
+            <div className="absolute bg-purple-400 h-12 w-4 right-4 -top-20"></div>
+
+            <div className="mt-12 h-64 w-64 bg-black rounded-full relative -top-40 -left-32">
+              <div className="h-[101%] w-[101%] bg-lime-200 border-[6px] border-black items-center -top-3 -left-3 rounded-full absolute flex justify-center text-3xl">
+                <Image
+                  src={headshot}
+                  width={256}
+                  height={256}
+                  alt="picture of the author"
+                  className="rounded-full"
+                />
               </div>
             </div>
           </div>
+        </div>
 
-          <div className="flex flex-col items-center justify-center h-screen w-screen bg-fuchsia-300">
-            <div className="mt-12 h-96 w-1/3 bg-black rounded-md relative">
-              <div className="h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col font-light justify-center text-center text-3xl p-12">
-                <h1 className="font-bold mb-4">Hi, I'm Griffin!</h1> What if I
-                just put way too much text in this tiny little box? Will it look
-                awful and cramped? Not anymore!
-                <div className="absolute flex flex-row gap-2 bottom-2 left-2">
-                  <div className="bg-red-400 h-4 w-4 rounded-full"></div>
-                  <div className="bg-yellow-400 h-4 w-4 rounded-full"></div>
-                  <div className="bg-green-400 h-4 w-4 rounded-full"></div>
-                </div>
-              </div>
-              <div className="absolute bg-teal-500 h-4 w-12 -right-16"></div>
-              <div className="absolute bg-teal-500 h-4 w-12 -right-[3.2rem] -top-12 -rotate-45"></div>
-              <div className="absolute bg-teal-500 h-12 w-4 right-4 -top-20"></div>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center justify-center h-screen w-screen bg-orange-300">
-            <div className="mt-12 h-96 w-1/3 bg-black rounded-md relative">
-              <div className="h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col font-light justify-center text-center text-3xl p-12">
-                <h1 className="font-bold mb-4">Tools and languages</h1> I'm
-                familiar with quite a few of today's most sought-after technologies.
-                Here are some of my favorites!
-                <div className="absolute flex flex-row gap-4 bottom-2 left-2">
-                  <div className="bg-indigo-500 h-2 w-6"></div>
-                  <div className="bg-indigo-500 h-2 w-6"></div>
-                  <div className="bg-indigo-500 h-2 w-6"></div>
-                </div>
-                <div className="absolute flex flex-col gap-4 bottom-2 left-2">
-                  <div className="bg-indigo-500 h-6 w-2"></div>
-                  <div className="bg-indigo-500 h-6 w-2"></div>
-                  <div className="bg-indigo-500 h-6 w-2"></div>
-                </div>
-              </div>
-              <div className="absolute bg-lime-500 h-4 w-12 -right-16"></div>
-              <div className="absolute bg-lime-500 h-4 w-12 -right-[3.2rem] -top-12 -rotate-45"></div>
-              <div className="absolute bg-lime-500 h-12 w-4 right-4 -top-20"></div>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center justify-center h-screen w-screen bg-pink-300">
-            <div className="mt-12 h-1/2 w-1/2 min-w-[600px] bg-black rounded-md relative">
-              <div className="h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col font-light justify-center text-center text-3xl p-12">
-                <h1 className="font-bold mb-4 z-20 absolute top-28">FAREWELL</h1>
-                <ul className="z-20 flex flex-col gap-5 absolute top-[10.5rem]">
-                  <li>Take care, off you go</li>
-                  <li>Thanks for visiting my site</li>
-                  <li>This was a haiku</li>
-                </ul>
-                <div className="h-full w-2 bg-red-400 absolute left-20 z-10"></div>
-                <div className="flex flex-col gap-12 absolute left-0 top-36 w-full">
-                  <div className="w-full h-2 bg-blue-400 "></div>
-                  <div className="w-full h-2 bg-blue-400 "></div>
-                  <div className="w-full h-2 bg-blue-400 "></div>
-                  <div className="w-full h-2 bg-blue-400 "></div>
-                  <div className="w-full h-2 bg-blue-400 "></div>
-                </div>
-                <div className="w-12 h-12 bg-pink-300 rounded-full border-[6px] border-black z-10 absolute left-5 top-[11rem] "></div>
+        <div className="flex flex-col items-center justify-center h-screen w-screen bg-fuchsia-300">
+          <div className="mt-12 h-96 w-1/3 bg-black rounded-md relative">
+            <div className="h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col font-light justify-center text-center text-3xl p-12">
+              <h1 className="font-bold mb-4">Hi, I'm Griffin!</h1> What if I
+              just put way too much text in this tiny little box? Will it look
+              awful and cramped? Not anymore!
+              <div className="absolute flex flex-row gap-2 bottom-2 left-2">
+                <div className="bg-red-400 h-4 w-4 rounded-full"></div>
+                <div className="bg-yellow-400 h-4 w-4 rounded-full"></div>
+                <div className="bg-green-400 h-4 w-4 rounded-full"></div>
               </div>
             </div>
+            <div className="absolute bg-teal-500 h-4 w-12 -right-16"></div>
+            <div className="absolute bg-teal-500 h-4 w-12 -right-[3.2rem] -top-12 -rotate-45"></div>
+            <div className="absolute bg-teal-500 h-12 w-4 right-4 -top-20"></div>
           </div>
-        </main>
-      </Layout>
+        </div>
+
+        <div className="flex flex-col items-center justify-center h-screen w-screen bg-orange-300">
+          <div className="mt-12 h-96 w-1/3 bg-black rounded-md relative">
+            <div className="h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col font-light justify-center text-center text-3xl p-12">
+              <h1 className="font-bold mb-4">Tools and languages</h1> I'm
+              familiar with quite a few of today's most sought-after
+              technologies. Here are some of my favorites!
+              <div className="absolute flex flex-row gap-4 bottom-2 left-2">
+                <div className="bg-indigo-500 h-2 w-6"></div>
+                <div className="bg-indigo-500 h-2 w-6"></div>
+                <div className="bg-indigo-500 h-2 w-6"></div>
+              </div>
+              <div className="absolute flex flex-col gap-4 bottom-2 left-2">
+                <div className="bg-indigo-500 h-6 w-2"></div>
+                <div className="bg-indigo-500 h-6 w-2"></div>
+                <div className="bg-indigo-500 h-6 w-2"></div>
+              </div>
+            </div>
+            <div className="absolute bg-lime-500 h-4 w-12 -right-16"></div>
+            <div className="absolute bg-lime-500 h-4 w-12 -right-[3.2rem] -top-12 -rotate-45"></div>
+            <div className="absolute bg-lime-500 h-12 w-4 right-4 -top-20"></div>
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center justify-center h-screen w-screen bg-pink-300">
+          <div className="mt-12 h-1/2 w-1/2 min-w-[600px] bg-black rounded-md relative">
+            <div className="h-[101%] w-[101%] bg-white border-[6px] border-black items-center -top-3 -left-3 rounded-md absolute flex flex-col font-light justify-center text-center text-3xl p-12">
+              <h1 className="font-bold mb-4 z-20 absolute top-28">FAREWELL</h1>
+              <ul className="z-20 flex flex-col gap-5 absolute top-[10.5rem]">
+                <li>Take care, off you go</li>
+                <li>Thanks for visiting my site</li>
+                <li>This was a haiku</li>
+              </ul>
+              <div className="h-full w-2 bg-red-400 absolute left-20 z-10"></div>
+              <div className="flex flex-col gap-12 absolute left-0 top-36 w-full">
+                <div className="w-full h-2 bg-blue-400 "></div>
+                <div className="w-full h-2 bg-blue-400 "></div>
+                <div className="w-full h-2 bg-blue-400 "></div>
+                <div className="w-full h-2 bg-blue-400 "></div>
+                <div className="w-full h-2 bg-blue-400 "></div>
+              </div>
+              <div className="w-12 h-12 bg-pink-300 rounded-full border-[6px] border-black z-10 absolute left-5 top-[11rem] "></div>
+            </div>
+          </div>
+        </div>
+      </main>
     </>
   );
 }
