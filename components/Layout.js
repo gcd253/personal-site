@@ -1,11 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Layout = ({ children }) => {
+  const router = useRouter();
+  const currentRoute = router.pathname;
+
   return (
     <>
       <div className="h-20 w-full items-center justify-center flex gap-x-20 bg-amber-100">
-        <Link href="/">
+        <Link href="/" className={currentRoute === "/" ? "font-bold" : ""}>
           <p className="m-16 relative group cursor-pointer p-x-1">
             <span>
               home
@@ -14,7 +18,10 @@ const Layout = ({ children }) => {
             </span>
           </p>
         </Link>
-        <Link href="/about">
+        <Link
+          href="/about"
+          className={currentRoute === "/about" ? "font-bold" : ""}
+        >
           <p className="m-16 relative group cursor-pointer p-x-1 whitespace-nowrap">
             <span>
               about me
@@ -23,7 +30,10 @@ const Layout = ({ children }) => {
             </span>
           </p>
         </Link>
-        <Link href="/portfolio">
+        <Link
+          href="/portfolio"
+          className={currentRoute === "/portfolio" ? "font-bold" : ""}
+        >
           <p className="m-16 relative group cursor-pointer p-x-1">
             <span>
               portfolio
@@ -32,7 +42,10 @@ const Layout = ({ children }) => {
             </span>
           </p>
         </Link>
-        <Link href="/resume">
+        <Link
+          href="/resume"
+          className={currentRoute === "/resume" ? "font-bold" : ""}
+        >
           <p className="m-16 relative group cursor-pointer p-x-1">
             <span>
               resume
