@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Layout from "@/components/Layout";
 import Image from "next/image";
 //@ts-ignore
 import headshot from "../public/headshot-square.PNG";
