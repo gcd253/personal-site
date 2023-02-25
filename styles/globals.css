@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-.color-wheel {
-    animation-fill-mode: forwards;
+.text-wrapper {
+    position: relative;
+
+}
+
+.text-wrapper:hover .anim-span {
+    position: relative;
+    animation: waveAnim 1s;
+    animation-delay: calc(.07s * var(--i));
+    animation-iteration-count: 1;
+}
+
+@keyframes waveAnim {
+    0%,40%,100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-5px);
+    }
 }
