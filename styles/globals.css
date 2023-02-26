@@ -7,11 +7,12 @@
 
 }
 
-.text-wrapper:hover .anim-span {
+.anim-span {
     position: relative;
     animation: waveAnim 1s;
     animation-delay: calc(.07s * var(--i));
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
 }
 
 @keyframes waveAnim {
@@ -20,5 +21,6 @@
     }
     20% {
         transform: translateY(-5px);
+        color: red;
     }
 }

@@ -18,14 +18,14 @@ const resume = () => {
  lastly I want to code random colors for the text to change into so its always different */}
             <a href="/Griffin-Dooley-Resume.pdf" className="group cursor-pointer border-[6px] rounded-md border-black px-6 py-4 mt-8 flex gap-[2px]" rel="noopener noreferrer"
  download>
-                <span className="font-bold text-3xl group-hover:text-red-500 duration-100 anim-span" style={{'--i':'1'}}>D</span>
-                <span className="font-bold text-3xl group-hover:text-red-500 duration-200 --i:2 anim-span" style={{'--i':'2'}}>O</span>
-                <span className="font-bold text-3xl group-hover:text-red-500 duration-300 --i:3 anim-span" style={{'--i':'3'}}>W</span>
-                <span className="font-bold text-3xl group-hover:text-red-500 duration-[400ms] --i:4 anim-span" style={{'--i':'4'}}>N</span>
-                <span className="font-bold text-3xl group-hover:text-red-500 duration-500 --i:5 anim-span" style={{'--i':'5'}}>L</span>
-                <span className="font-bold text-3xl group-hover:text-red-500 duration-[600ms] --i:6 anim-span" style={{'--i':'6'}}>O</span>
-                <span className="font-bold text-3xl group-hover:text-red-500 duration-700 --i:7 anim-span" style={{'--i':'7'}}>A</span>
-                <span className="font-bold text-3xl group-hover:text-red-500 duration-[800ms] --i:8 anim-span" style={{'--i':'8'}}>D</span>
+                <span className="font-bold text-3xl anim-span" style={{'--i':'1'}}>D</span>
+                <span className="font-bold text-3xl anim-span" style={{'--i':'2'}}>O</span>
+                <span className="font-bold text-3xl anim-span" style={{'--i':'3'}}>W</span>
+                <span className="font-bold text-3xl anim-span" style={{'--i':'4'}}>N</span>
+                <span className="font-bold text-3xl anim-span" style={{'--i':'5'}}>L</span>
+                <span className="font-bold text-3xl anim-span" style={{'--i':'6'}}>O</span>
+                <span className="font-bold text-3xl anim-span" style={{'--i':'7'}}>A</span>
+                <span className="font-bold text-3xl anim-span" style={{'--i':'8'}}>D</span>
             </a>
             
           </div>
